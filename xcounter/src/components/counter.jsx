@@ -5,7 +5,7 @@ export default function Counter() {
     return (
         <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
             <h1>Counter App</h1>
-            <p>Count : {counter}</p>
+            <p>Count: {counter}</p>
             <div style={{display: "flex", gap: "10px"}}>
                 <button onClick={() => setCounter((prevValue) => prevValue + 1)}>Increment</button>
                 <button onClick={() => setCounter((prevValue) => prevValue - 1)}>Decrement</button>
